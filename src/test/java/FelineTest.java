@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class FelineTest {
-    Feline feline;
+    private Feline feline;
     @Before
     public void setUp() {
         feline = new Feline();

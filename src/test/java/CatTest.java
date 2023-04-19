@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
 @RunWith(MockitoJUnitRunner.class)
 public class CatTest {
     @Spy
-    Feline feline;
+    private Feline feline;
     @Test
     public void getSoundShouldReturnMeow(){
         Cat cat = new Cat(feline);
